@@ -49,9 +49,9 @@ namespace kinect_sdk_example
                     {
                         foreach (Joint joint in skeleton.Joints)
                         {
-                            SkelPoints.Text += joint.JointType.ToString() + "\t";
-                            SkelPoints.Text += joint.Position.X + "\t";
-                            SkelPoints.Text += joint.Position.Y + "\t";
+                            SkelPoints.Text += joint.JointType.ToString() + "   \t";
+                            SkelPoints.Text += joint.Position.X + "   \t";
+                            SkelPoints.Text += joint.Position.Y + "   \t";
                             SkelPoints.Text += joint.Position.Z + "\n";
 
                         }
